@@ -7,15 +7,16 @@ echo "####### Instalando dependencias a Server########"
 
 cd Server
 npm i
-cd ../
+cd ..
 
 
 
 echo "######## Instalando dependencias a Client #########"
 
-cd Client
+cd Client/integrador-app
 npm i
-cd ../
+cd ../..
+
 
 
 docker-compose up
